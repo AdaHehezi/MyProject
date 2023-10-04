@@ -11,13 +11,12 @@ const ContactMe = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     
-    // Validate the form data (you can add more validation here)
     if (!name || !email || !message) {
       alert('Please fill in all fields');
       return;
     }
 
-    // Save the information (you can send it to an API or store it in your preferred way)
+    // Save the information 
     const formData = { name, email, message };
     console.log('Form Data:', formData);
 
