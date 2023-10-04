@@ -5,9 +5,9 @@ import {Routes,Route}  from 'react-router-dom';
 import Footer from './components/Footer';
 import Readmind from './components/Readmind';
 import AboutMe from './components/AboutMe';
-import Contact from './components/Contact';
 import Home from './components/Home';
 import Header from './components/Header';
+import ContactMe from './components/ContactMe';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
           <Route path="/" element={<Home/>} />
           <Route path="/Readmind" element={<Readmind/>} />
           <Route path="/AboutMe" element={<AboutMe/>}/>
-          <Route path="/Contact" element={<Contact/>}/>
+          <Route path="/ContactMe" element={<ContactMe/>}/>
         </Routes>
       <Footer/>
     </div>
